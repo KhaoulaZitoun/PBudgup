@@ -1,6 +1,6 @@
 # Budgup
 [![Build Status](https://travis-ci.org/ProjetBudgup/PBudgup.svg?branch=master)](https://travis-ci.org/ProjetBudgup/PBudgup)
-[![Coverage Status](https://coveralls.io/repos/github/ProjetBudgup/PBudgup/badge.svg?branch=master](https://coveralls.io/github/ProjetBudgup/PBudgup?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/ProjetBudgup/PBudgup/badge.svg?branch=master)](https://coveralls.io/github/ProjetBudgup/PBudgup?branch=master)
 
 
 #Description générale 
