@@ -17,7 +17,12 @@ buildscript {
     }
 }
 
-
+jacocoTestReport {
+    reports {
+        xml.enabled = true // coveralls plugin depends on xml format report
+        html.enabled = true
+    }
+}
 
 allprojects {
     repositories {
@@ -28,3 +33,4 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
