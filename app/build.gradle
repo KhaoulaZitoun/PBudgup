@@ -49,8 +49,9 @@ tasks.coveralls {
 
 sonarqube {
     properties {
-        //property "sonar.projectName", "PROJECT NAME"
-        //property "sonar.projectKey", "PROJECT KEY"
+        property "sonar.projectName", "PBudgup"
+        property "sonar.projectKey", "PBudgup"
+        property "sonar.sources", "."
         property "sonar.jacoco.reportPath", "${project.buildDir}/jacoco/test.exec"
     }
 }
