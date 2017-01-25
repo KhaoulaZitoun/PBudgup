@@ -5,10 +5,7 @@ buildscript {
         jcenter()
     }
     
- plugins {
-    id 'jacoco'
-    id 'com.github.kt3k.coveralls' version '2.6.3'
-}
+
     
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.2'
@@ -18,12 +15,7 @@ buildscript {
     }
 }
 
-jacocoTestReport {
-    reports {
-        xml.enabled = true // coveralls plugin depends on xml format report
-        html.enabled = true
-    }
-}
+
 
 allprojects {
     repositories {
