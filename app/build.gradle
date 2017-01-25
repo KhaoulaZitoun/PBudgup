@@ -30,9 +30,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
-jacocoTestReport {
-    reports {
-        xml.enabled = true // coveralls plugin depends on xml format report
-        html.enabled = true
-    }
+coveralls {
+    jacocoReportPath = "${buildDir}/reports/coverage/debug/report.xml"
 }
