@@ -1,7 +1,7 @@
 language: android
 jdk: oraclejdk8
 
-sudo: false
+
 
 android:
         components:
@@ -15,6 +15,6 @@ android:
     - 'google-gdk-license-.+'
 script:
         - ./gradlew build
-        - ./gradlew check jacocoTestReport coveralls
+
 before_install:
         - chmod +x gradlew
