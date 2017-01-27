@@ -1,4 +1,5 @@
 # Budgup
+[![License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](LICENSE)<br/>
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/aaabd3bb9d894845b41d77f3e0c1bc9e)](https://www.codacy.com/app/ProjetBudgup/PBudgup?utm_source=github.com&utm_medium=referral&utm_content=ProjetBudgup/PBudgup&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/ProjetBudgup/PBudgup.svg?branch=master)](https://travis-ci.org/ProjetBudgup/PBudgup)
 [![Coverage Status](https://coveralls.io/repos/github/ProjetBudgup/PBudgup/badge.svg?branch=master)](https://coveralls.io/github/ProjetBudgup/PBudgup?branch=master)
